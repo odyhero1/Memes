@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>866449866110-k9a5r1bfnitm55uu4j2glto7i1kj2hqd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.866449866110-k9a5r1bfnitm55uu4j2glto7i1kj2hqd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD3JWACIjRxNXYz8UiecTFl_6kaulbD_po</string>
+	<key>GCM_SENDER_ID</key>
+	<string>866449866110</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.odysseas.Memes</string>
+	<key>PROJECT_ID</key>
+	<string>memes-8085e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>memes-8085e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:866449866110:ios:75b5211c683c346d</string>
+	<key>DATABASE_URL</key>
+	<string>https://memes-8085e.firebaseio.com</string>
+</dict>
+</plist>
