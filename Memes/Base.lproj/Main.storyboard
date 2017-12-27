@@ -34,7 +34,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUR-2e-afw">
-                                        <rect key="frame" x="17" y="25" width="264" height="103"/>
+                                        <rect key="frame" x="131.5" y="25" width="149.5" height="103"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="103" id="67h-V0-ptn"/>
                                         </constraints>
