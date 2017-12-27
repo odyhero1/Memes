@@ -61,6 +61,7 @@
 		F613B9251FEFBBA900340DEB /* MemesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesUITests.swift; sourceTree = "<group>"; };
 		F613B9271FEFBBA900340DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6BBBE7D1FF4282900972365 /* Summer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Summer.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 				F613B9351FEFC1E600340DEB /* Controller */,
 				F613B9341FEFC1D900340DEB /* Model */,
 				F613B9051FEFBBA900340DEB /* AppDelegate.swift */,
+				F6BBBE7D1FF4282900972365 /* Summer.ttf */,
 				F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */,
 				F613B9091FEFBBA900340DEB /* Main.storyboard */,
 				F613B90C1FEFBBA900340DEB /* Assets.xcassets */,
