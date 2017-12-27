@@ -17,6 +17,11 @@
 		F613B91B1FEFBBA900340DEB /* MemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B91A1FEFBBA900340DEB /* MemesTests.swift */; };
 		F613B9261FEFBBA900340DEB /* MemesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B9251FEFBBA900340DEB /* MemesUITests.swift */; };
 		F613B9381FEFC4B800340DEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */; };
+		F6BBBE7F1FF4358500972365 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE7E1FF4358500972365 /* FancyView.swift */; };
+		F6BBBE821FF4374700972365 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE811FF4374700972365 /* Constants.swift */; };
+		F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE831FF43AC600972365 /* RoundIt.swift */; };
+		F6BBBE861FF43C7600972365 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE851FF43C7600972365 /* TextField.swift */; };
+		F6BBBE881FF43DEC00972365 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE871FF43DEC00972365 /* FancyBtn.swift */; };
 		F93DBB9BAE93CF1DA394A407 /* Pods_MemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0536C4C5510693A17794AC /* Pods_MemesUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +67,11 @@
 		F613B9271FEFBBA900340DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6BBBE7D1FF4282900972365 /* Summer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Summer.ttf; sourceTree = "<group>"; };
+		F6BBBE7E1FF4358500972365 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		F6BBBE811FF4374700972365 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6BBBE831FF43AC600972365 /* RoundIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundIt.swift; sourceTree = "<group>"; };
+		F6BBBE851FF43C7600972365 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		F6BBBE871FF43DEC00972365 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,7 @@
 		F613B9041FEFBBA900340DEB /* Memes */ = {
 			isa = PBXGroup;
 			children = (
+				F6BBBE801FF4373700972365 /* Util */,
 				F613B9351FEFC1E600340DEB /* Controller */,
 				F613B9341FEFC1D900340DEB /* Model */,
 				F613B9051FEFBBA900340DEB /* AppDelegate.swift */,
@@ -149,6 +160,10 @@
 				F613B90C1FEFBBA900340DEB /* Assets.xcassets */,
 				F613B90E1FEFBBA900340DEB /* LaunchScreen.storyboard */,
 				F613B9111FEFBBA900340DEB /* Info.plist */,
+				F6BBBE7E1FF4358500972365 /* FancyView.swift */,
+				F6BBBE831FF43AC600972365 /* RoundIt.swift */,
+				F6BBBE851FF43C7600972365 /* TextField.swift */,
+				F6BBBE871FF43DEC00972365 /* FancyBtn.swift */,
 			);
 			path = Memes;
 			sourceTree = "<group>";
@@ -184,6 +199,14 @@
 				F613B9071FEFBBA900340DEB /* SignInVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6BBBE801FF4373700972365 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F6BBBE811FF4374700972365 /* Constants.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,6 +516,11 @@
 			files = (
 				F613B9081FEFBBA900340DEB /* SignInVC.swift in Sources */,
 				F613B9061FEFBBA900340DEB /* AppDelegate.swift in Sources */,
+				F6BBBE7F1FF4358500972365 /* FancyView.swift in Sources */,
+				F6BBBE861FF43C7600972365 /* TextField.swift in Sources */,
+				F6BBBE821FF4374700972365 /* Constants.swift in Sources */,
+				F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */,
+				F6BBBE881FF43DEC00972365 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
