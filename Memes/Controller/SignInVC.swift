@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import FBSDKLoginKit
+import FBSDKCoreKit
+import Firebase
 
 class SignInVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+       // if ([FBSDKAccessToken currentAccessToken]) {
+            // User is logged in, do work such as go to next view controller.
+      //  }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,5 +27,26 @@ class SignInVC: UIViewController {
     }
 
 
+    @IBAction func FButtonTapped(_ sender: Any) {
+         let facebookLogin = FBSDKLoginManager()
+        facebookLogin.logIn(withReadPermissions: ["email"], from: self) { (result, error) in if error != nil {
+            print("U r fucked \(String(describing: error))")
+        } else if result?.isCancelled == true {
+            print("they didnt accept")
+            let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+            self.firebaseAuth(credential)
+            }
+    }
 }
+    func firebaseAuth(_ credential: AuthCredential) {
+        Auth.auth().signIn(with: credential, completion: { (user, error) in
+            if error != nil {
+                print("firebase prob \(error)")
+            } else {
+                print("Firebase is ok")
+            }
+        })
 
+    }
+
+}
