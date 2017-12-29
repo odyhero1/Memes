@@ -12,7 +12,9 @@ import FBSDKCoreKit
 import Firebase
 
 class SignInVC: UIViewController {
-
+    @IBOutlet weak var emailField: TextField!
+    @IBOutlet weak var passField: TextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        // if ([FBSDKAccessToken currentAccessToken]) {
@@ -41,7 +43,7 @@ class SignInVC: UIViewController {
     func firebaseAuth(_ credential: AuthCredential) {
         Auth.auth().signIn(with: credential, completion: { (user, error) in
             if error != nil {
-                print("firebase prob \(error)")
+                print("firebase prob \(String(describing: error))")
             } else {
                 print("Firebase is ok")
             }
@@ -49,4 +51,21 @@ class SignInVC: UIViewController {
 
     }
 
+    @IBAction func signInTapped(_ sender: Any) {
+        if let email = emailField.text, let pass = passField.text {
+            Auth.auth().signIn(withEmail: email, password: pass, completion: { (user, error) in
+                if error == nil {
+                    print("We are in")
+                } else {
+                    Auth.auth().createUser(withEmail: email, password: pass, completion: { (user, error) in
+                        if error != nil {
+                            print("cant authenticate w/th firebase")
+                        } else {
+                            print("we are in w/th email")
+                        }
+                    })
+                }
+            })
+        }
+    }
 }
