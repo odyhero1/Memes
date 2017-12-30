@@ -17,6 +17,7 @@
 		F613B91B1FEFBBA900340DEB /* MemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B91A1FEFBBA900340DEB /* MemesTests.swift */; };
 		F613B9261FEFBBA900340DEB /* MemesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B9251FEFBBA900340DEB /* MemesUITests.swift */; };
 		F613B9381FEFC4B800340DEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */; };
+		F6B7C37F1FF664DC00ED617D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B7C37E1FF664DC00ED617D /* FeedVC.swift */; };
 		F6BBBE7F1FF4358500972365 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE7E1FF4358500972365 /* FancyView.swift */; };
 		F6BBBE821FF4374700972365 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE811FF4374700972365 /* Constants.swift */; };
 		F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE831FF43AC600972365 /* RoundIt.swift */; };
@@ -66,6 +67,7 @@
 		F613B9251FEFBBA900340DEB /* MemesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesUITests.swift; sourceTree = "<group>"; };
 		F613B9271FEFBBA900340DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F613B9371FEFC45B00340DEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6B7C37E1FF664DC00ED617D /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		F6BBBE7D1FF4282900972365 /* Summer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Summer.ttf; sourceTree = "<group>"; };
 		F6BBBE7E1FF4358500972365 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		F6BBBE811FF4374700972365 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				F613B9071FEFBBA900340DEB /* SignInVC.swift */,
+				F6B7C37E1FF664DC00ED617D /* FeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -407,6 +411,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -524,6 +529,7 @@
 				F613B9061FEFBBA900340DEB /* AppDelegate.swift in Sources */,
 				F6BBBE7F1FF4358500972365 /* FancyView.swift in Sources */,
 				F6BBBE861FF43C7600972365 /* TextField.swift in Sources */,
+				F6B7C37F1FF664DC00ED617D /* FeedVC.swift in Sources */,
 				F6BBBE821FF4374700972365 /* Constants.swift in Sources */,
 				F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */,
 				F6BBBE881FF43DEC00972365 /* FancyBtn.swift in Sources */,

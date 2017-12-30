@@ -34,7 +34,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUR-2e-afw">
-                                        <rect key="frame" x="131.5" y="25" width="149.5" height="103"/>
+                                        <rect key="frame" x="17" y="25" width="264" height="103"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="103" id="67h-V0-ptn"/>
                                         </constraints>
@@ -143,18 +143,56 @@
                             <constraint firstItem="7tM-Z5-Dp0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="edE-1C-gYr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uou-wA-a9x" secondAttribute="trailing" constant="30" id="xKc-cF-Jc9"/>
                             <constraint firstItem="uou-wA-a9x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="yKU-dm-mzn"/>
-                            <constraint firstItem="JZy-lD-nZk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z0I-CQ-AIb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="emailField" destination="3c5-Sa-C6T" id="RVB-PO-218"/>
                         <outlet property="passField" destination="xbe-MB-nBK" id="9tQ-4b-3HW"/>
+                        <segue destination="tYS-vJ-4ob" kind="show" identifier="goToFeed" id="amt-im-z1v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--FeedVC-->
+        <scene sceneID="b2O-LZ-09a">
+            <objects>
+                <viewController id="tYS-vJ-4ob" customClass="FeedVC" customModule="Memes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TI2-Bc-4XX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ko-uJ-fpU">
+                                <rect key="frame" x="155" y="263" width="99" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="oYe-2l-TfO"/>
+                                </constraints>
+                                <state key="normal" title="MEmes">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signOut:" destination="tYS-vJ-4ob" eventType="touchUpInside" id="Zcb-0j-NTP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NZ4-5h-neG" firstAttribute="trailing" secondItem="0ko-uJ-fpU" secondAttribute="trailing" constant="121" id="Grp-P2-q17"/>
+                            <constraint firstItem="0ko-uJ-fpU" firstAttribute="top" secondItem="NZ4-5h-neG" secondAttribute="top" constant="243" id="eX8-yT-ETG"/>
+                            <constraint firstItem="0ko-uJ-fpU" firstAttribute="leading" secondItem="NZ4-5h-neG" secondAttribute="leading" constant="155" id="qsw-aW-E9a"/>
+                            <constraint firstItem="NZ4-5h-neG" firstAttribute="bottom" secondItem="0ko-uJ-fpU" secondAttribute="bottom" constant="363" id="r3w-Fh-VPY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NZ4-5h-neG"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignin" id="aVn-nQ-NBJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1V1-kW-igY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959.20000000000005" y="121.88905547226388"/>
         </scene>
     </scenes>
     <resources>
