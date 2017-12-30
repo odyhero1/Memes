@@ -15,7 +15,7 @@ class FeedVC: UIViewController {
 KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         try!Auth.auth().signOut()
         dismiss(animated: true) {
-            //
+            ///
         }
 
     }

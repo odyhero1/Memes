@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80DDEFEBCF2C02BF61903F62 /* Pods_MemesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CBCEB413D5AF3B7279F157 /* Pods_MemesTests.framework */; };
 		C446F7CE882C0CD132D78EA7 /* Pods_Memes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF5E0B9881FE4F4ADF3521C /* Pods_Memes.framework */; };
+		F6063BA01FF7D07D0096E990 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6063B9F1FF7D07D0096E990 /* CircleView.swift */; };
 		F613B9061FEFBBA900340DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B9051FEFBBA900340DEB /* AppDelegate.swift */; };
 		F613B9081FEFBBA900340DEB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B9071FEFBBA900340DEB /* SignInVC.swift */; };
 		F613B90B1FEFBBA900340DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F613B9091FEFBBA900340DEB /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		AA68AAA11F9B9A08C0692E95 /* Pods-MemesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemesTests/Pods-MemesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3CBCEB413D5AF3B7279F157 /* Pods_MemesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD9BD1FD5E6AD5EE5C0FD9B /* Pods-Memes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Memes/Pods-Memes.debug.xcconfig"; sourceTree = "<group>"; };
+		F6063B9F1FF7D07D0096E990 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		F613B9021FEFBBA900340DEB /* Memes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F613B9051FEFBBA900340DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F613B9071FEFBBA900340DEB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				F6BBBE831FF43AC600972365 /* RoundIt.swift */,
 				F6BBBE851FF43C7600972365 /* TextField.swift */,
 				F6BBBE871FF43DEC00972365 /* FancyBtn.swift */,
+				F6063B9F1FF7D07D0096E990 /* CircleView.swift */,
 			);
 			path = Memes;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6063BA01FF7D07D0096E990 /* CircleView.swift in Sources */,
 				F613B9081FEFBBA900340DEB /* SignInVC.swift in Sources */,
 				F613B9061FEFBBA900340DEB /* AppDelegate.swift in Sources */,
 				F6BBBE7F1FF4358500972365 /* FancyView.swift in Sources */,
