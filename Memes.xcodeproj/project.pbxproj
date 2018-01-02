@@ -24,6 +24,7 @@
 		F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE831FF43AC600972365 /* RoundIt.swift */; };
 		F6BBBE861FF43C7600972365 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE851FF43C7600972365 /* TextField.swift */; };
 		F6BBBE881FF43DEC00972365 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBBE871FF43DEC00972365 /* FancyBtn.swift */; };
+		F6F87B201FFBAD3F001DF3C7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F87B1F1FFBAD3F001DF3C7 /* PostCell.swift */; };
 		F93DBB9BAE93CF1DA394A407 /* Pods_MemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0536C4C5510693A17794AC /* Pods_MemesUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		F6BBBE831FF43AC600972365 /* RoundIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundIt.swift; sourceTree = "<group>"; };
 		F6BBBE851FF43C7600972365 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		F6BBBE871FF43DEC00972365 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		F6F87B1F1FFBAD3F001DF3C7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,9 +168,10 @@
 				F613B9111FEFBBA900340DEB /* Info.plist */,
 				F6BBBE7E1FF4358500972365 /* FancyView.swift */,
 				F6BBBE831FF43AC600972365 /* RoundIt.swift */,
-				F6BBBE851FF43C7600972365 /* TextField.swift */,
 				F6BBBE871FF43DEC00972365 /* FancyBtn.swift */,
+				F6BBBE851FF43C7600972365 /* TextField.swift */,
 				F6063B9F1FF7D07D0096E990 /* CircleView.swift */,
+				F6F87B1F1FFBAD3F001DF3C7 /* PostCell.swift */,
 			);
 			path = Memes;
 			sourceTree = "<group>";
@@ -537,6 +540,7 @@
 				F6BBBE821FF4374700972365 /* Constants.swift in Sources */,
 				F6BBBE841FF43AC600972365 /* RoundIt.swift in Sources */,
 				F6BBBE881FF43DEC00972365 /* FancyBtn.swift in Sources */,
+				F6F87B201FFBAD3F001DF3C7 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
